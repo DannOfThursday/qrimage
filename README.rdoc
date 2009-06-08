@@ -9,21 +9,21 @@
 * rmagick 2.9.2
 
 == 使用例
-require "qrimage"
-data = QRImage::create_qr "sample"
-open("test.jpg","w").write(data)
+ require "qrimage"
+ data = QRImage::create_qr "sample"
+ open("test.jpg","w").write(data)
 
 == オプション
-QRImage::create_qr(str,opt={})
- str - QRコードかする文字列
- opt - オプション引数
-  :size       => QRコードのサイズ（ディフォルト4)
-  :level      => エラー補正レベル(ディフォルト30%(:h))
-   :h->7%,:m->15%,:q->25%,:h->30%
-  :pic        => QRの1マス当たりのピクセル数(ディフォルト2)
-  :format     => 画像データフォーマット(ディフォルトjpg)
-  :back_color => QRコードの背景色（ディフォルト#ffffff)
-  :code_color => QRコードのブロックカラー（ディフォルト#000000)
+ QRImage::create_qr(str,opt={})
+  str - QRコードかする文字列
+  opt - オプション引数
+   :size       => QRコードのサイズ（ディフォルト4)
+   :level      => エラー補正レベル(ディフォルト30%(:h))
+    :h->7%,:m->15%,:q->25%,:h->30%
+   :pic        => QRの1マス当たりのピクセル数(ディフォルト2)
+   :format     => 画像データフォーマット(ディフォルトjpg)
+   :back_color => QRコードの背景色（ディフォルト#ffffff)
+   :code_color => QRコードのブロックカラー（ディフォルト#000000)
 
 == リンク
 * Website: http://d.hatena.ne.jp/tgg/20090607/1244341445

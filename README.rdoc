@@ -27,8 +27,7 @@
 
 == リンク
 * Website: http://d.hatena.ne.jp/tgg/20090607/1244341445
-* RDoc Documentation: http://jpmobile.rubyforge.org/rdoc
-* GitHub: http://github.com/darashi/jpmobile/
+* GitHub: http://github.com/hal99/qrimage/
 * rqrcode: http://rubyforge.org/projects/rqrcode/
 * rmagick: http://rubyforge.org/projects/rmagick
 

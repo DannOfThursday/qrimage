@@ -15,7 +15,7 @@
 
 == オプション
  QRImage::create_qr(str,opt={})
-  str - QRコードかする文字列
+  str - QRコード化する文字列
   opt - オプション引数
    :size       => QRコードのサイズ（ディフォルト4)
    :level      => エラー補正レベル(ディフォルト30%(:h))
